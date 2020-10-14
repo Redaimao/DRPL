@@ -1,6 +1,8 @@
 # DRPL: Deep Regression Pair Learning for Multi-Focus Image Fusion
 This is the implementation of [DRPL:Deep Regression Pair Learning for Multi-Focus Image Fusion](https://ieeexplore.ieee.org/abstract/document/9020016). 
-by Jinxing Li*; Xiaobao Guo*; Guangming Lu; Bob Zhang; Yong Xu; Feng Wu; David Zhang. \\\
+
+by Jinxing Li*; Xiaobao Guo*; Guangming Lu; Bob Zhang; Yong Xu; Feng Wu; David Zhang.
+
 In this repo, we provide source codes and our dataset for the easily training and test.
 
 ###Abstract:
