@@ -84,11 +84,11 @@ testTransform = transforms.Compose([
 ])
 
 
-train_data = MyDataset_Raw_Blur(path=opt.train_path, transform=trainTransform)
-valid_data = MyDataset_Gradient(path=opt.valid_path, transform=validTransform)
+#train_data = MyDataset_Raw_Blur(path=opt.train_path, transform=trainTransform)
+#valid_data = MyDataset_Gradient(path=opt.valid_path, transform=validTransform)
 
-# train_data = MyDataset_Gradient(path=opt.train_path, transform=trainTransform)
-# valid_data = MyDataset_Gradient(path=opt.valid_path, transform=validTransform)
+train_data = MyDataset_Gradient(path=opt.train_path, transform=trainTransform)
+valid_data = MyDataset_Gradient(path=opt.valid_path, transform=validTransform)
 
 #test_data = MyTestDataset(path=opt.test_path, transform = testTransform)
 
